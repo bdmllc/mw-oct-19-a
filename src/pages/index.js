@@ -5,6 +5,7 @@ import Banner from "../components/Banner"
 import About from "../components/Home/About"
 import StyledHero from "../components/StyledHero"
 import { graphql } from "gatsby"
+import FeaturedDiscoveries from "../components/Home/FeaturedDiscoveries"
 export default ({ data }) => (
   <Layout>
     <StyledHero home="true" img={data.defaultBcg.childImageSharp.fluid}>
@@ -18,6 +19,7 @@ export default ({ data }) => (
       </Banner>
     </StyledHero>
     <About />
+    <FeaturedDiscoveries />
   </Layout>
 )
 
