@@ -1,8 +1,47 @@
 import React from "react"
 import { graphql } from "gatsby"
+import Layout from "../components/Layout"
+import StyledHero from "../components/StyledHero"
+import styles from "../css/template.module.css"
+import Img from "gatsby-image"
 
 const Template = ({ data }) => {
-  return <h1>{data.discovery.name}</h1>
+  const {
+    name,
+    location,
+    description: { description },
+    json,
+    images,
+  } = data.discovery
+
+  const [mainImage, ...discoveryImages] = images
+
+  return (
+    <Layout>
+      <StyledHero img={mainImage.fluid} />
+      <section className={styles.template}>
+        <div className={styles.center}>
+          <div className={styles.images}>
+            {discoveryImages.map((item, index) => {
+              return (
+                <Img
+                  key={index}
+                  fluid={item.fluid}
+                  alt="single tour"
+                  className={styles.image}
+                />
+              )
+            })}
+          </div>
+          <h2>{name}</h2>
+          <div className={styles.info}>
+            <h4>{location}</h4>
+            <p className={styles.desc}>{description}</p>
+          </div>
+        </div>
+      </section>
+    </Layout>
+  )
 }
 
 export const query = graphql`
@@ -18,7 +57,7 @@ export const query = graphql`
       }
       images {
         fluid {
-          src
+          ...GatsbyContentfulFluid
         }
       }
     }
