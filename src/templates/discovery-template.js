@@ -36,12 +36,8 @@ const Template = ({ data }) => {
           <h2>{name}</h2>
           <div className={styles.info}>
             <h4>{location}</h4>
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
-            <br />
+          </div>
+          <div className={styles.info}>
             <p className={styles.desc}>{description}</p>
           </div>
         </div>
