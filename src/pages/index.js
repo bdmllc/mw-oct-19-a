@@ -6,11 +6,12 @@ import About from "../components/Home/About"
 import StyledHero from "../components/StyledHero"
 import { graphql } from "gatsby"
 import FeaturedDiscoveries from "../components/Home/FeaturedDiscoveries"
+
 export default ({ data }) => (
   <Layout>
     <StyledHero home="true" img={data.defaultBcg.childImageSharp.fluid}>
       <Banner
-        title="continue foshizzle"
+        title="continue onward"
         info="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, nisi!"
       >
         <AniLink fade to="/tours" className="btn-white">

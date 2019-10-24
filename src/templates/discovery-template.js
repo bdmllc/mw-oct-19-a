@@ -10,7 +10,6 @@ const Template = ({ data }) => {
     name,
     location,
     description: { description },
-    json,
     images,
   } = data.discovery
 
