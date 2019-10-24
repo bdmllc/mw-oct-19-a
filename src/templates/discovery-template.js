@@ -41,6 +41,7 @@ const Template = ({ data }) => {
             <br />
             <br />
             <br />
+            <br />
             <p className={styles.desc}>{description}</p>
           </div>
         </div>
