@@ -38,7 +38,7 @@ const FeaturedDiscoveries = () => {
         })}
       </div>
 
-      <AniLink fade to="/discoveries" className="btn-primary">
+      <AniLink fade to="/tours" className="btn-primary">
         all discoveries
       </AniLink>
     </section>
