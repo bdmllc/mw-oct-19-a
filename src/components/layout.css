@@ -40,7 +40,7 @@ p {
   margin-bottom: 1.25rem;
 }
 a {
-  text-decoration: none;
+  text-decoration: none !important;
 }
 .defaultHero {
   min-height: calc(100vh - 62px);
