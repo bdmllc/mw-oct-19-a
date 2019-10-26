@@ -5,10 +5,11 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: "Miami Walking",
-    description: "Random discoveries while walking around Miami, Florida. ",
-    author: "Walker, Miami Ranger",
+    description: "A Miami Blog In Search Of New Experiences.",
+    author: "Reinhold Lehmbruck",
   },
   plugins: [
+    `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
