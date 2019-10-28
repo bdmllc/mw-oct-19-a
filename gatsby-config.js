@@ -8,8 +8,8 @@ module.exports = {
     description: "A Miami Blog In Search Of New Experiences.",
     author: "Reinhold Lehmbruck",
     twitterUsername: "@MiamiWalking",
-    image: "./defaultBcg.jpeg",
-    siteUrl: "https://gifted-brahmagupta-eedf98.netlify.com",
+    image: "/defaultBcg.jpeg",
+    siteUrl: "https://miamiwalking.netlify.com/",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
