@@ -8,7 +8,7 @@ module.exports = {
     description: "A Miami Blog In Search Of New Experiences.",
     author: "Reinhold Lehmbruck",
     twitterUsername: "@MiamiWalking",
-    image: "./giselle-at-the-beach.jpeg",
+    image: "/defaultBcg.jpeg",
     siteUrl: "https://gifted-brahmagupta-eedf98.netlify.com",
   },
   plugins: [
