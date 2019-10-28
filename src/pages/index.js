@@ -6,9 +6,11 @@ import About from "../components/Home/About"
 import StyledHero from "../components/StyledHero"
 import { graphql } from "gatsby"
 import FeaturedDiscoveries from "../components/Home/FeaturedDiscoveries"
+import SEO from "../components/SEO"
 
 export default ({ data }) => (
   <Layout>
+    <SEO title="Home" description="this is description" />
     <StyledHero home="true" img={data.defaultBcg.childImageSharp.fluid}>
       <Banner
         title="continue onward"

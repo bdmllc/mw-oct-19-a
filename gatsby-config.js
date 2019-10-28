@@ -7,6 +7,9 @@ module.exports = {
     title: "Miami Walking",
     description: "A Miami Blog In Search Of New Experiences.",
     author: "Reinhold Lehmbruck",
+    twitterUsername: "@MiamiWalking",
+    image: "./giselle-at-the-beach.jpeg",
+    siteUrl: "https://gifted-brahmagupta-eedf98.netlify.com",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
