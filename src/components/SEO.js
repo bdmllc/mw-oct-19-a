@@ -21,7 +21,6 @@ const getData = graphql`
 
 const SEO = ({ title, description }) => {
   const { site } = useStaticQuery(getData)
-
   const {
     siteDesc,
     siteTitle,
