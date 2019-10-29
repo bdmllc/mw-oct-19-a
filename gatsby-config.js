@@ -7,8 +7,8 @@ module.exports = {
     title: "Miami Walking",
     description: "A Miami Blog In Search Of New Experiences.",
     author: "Reinhold Lehmbruck",
-    twitterUsername: "@MiamiWalking",
-    image: "defaultBcg.jpeg",
+    twitterUsername: "@miami_walking",
+    image: "/Manati_Cropped.jpg",
     siteUrl: "https://miamiwalking.netlify.com",
   },
   plugins: [
