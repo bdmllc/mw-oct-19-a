@@ -4,12 +4,12 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: "BackRoads",
-    description: `Explore awesome worldwide tours & discover what makes each of them unique. Forget your daily routine & say yes to adventure.`,
-    author: "@Miami_Walking",
-    siteUrl: "https://miamiwalking.netlify.com/", // No trailing slash allowed!
-    image: "/defaultBcg.jpeg", // Path to your image you placed in the 'static' folder
-    twitterUsername: "@miami305walking",
+    title: "Miami Walking",
+    description: `A Miami Blog In Search Of New Experiences.`,
+    author: "Reinhold Lehmbruck",
+    twitterUsername: "@miami_walking",
+    image: "/defaultBcg.jpeg",
+    siteUrl: "https://miamiwalking.netlify.com",
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
