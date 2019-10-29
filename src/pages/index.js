@@ -10,7 +10,10 @@ import SEO from "../components/SEO"
 
 export default ({ data }) => (
   <Layout>
-    <SEO title="Home" description="This is our first Tweet!" />
+    <SEO
+      title="Home"
+      description="Found this super cool mural in Coconut Grove the other day."
+    />
     <StyledHero home="true" img={data.defaultBcg.childImageSharp.fluid}>
       <Banner
         title="continue onward"
