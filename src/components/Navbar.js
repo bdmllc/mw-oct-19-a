@@ -4,7 +4,7 @@ import styles from "../css/navbar.module.css"
 import { FaAlignRight } from "react-icons/fa"
 import links from "../constants/links"
 import socialIcons from "../constants/social-icons"
-import logo from "../images/MW-logo-Oct-19.svg"
+import logo from "../images/mw-logo-oct-29-19-c.svg"
 
 const Navbar = () => {
   const [isOpen, setNav] = useState(false)
