@@ -14,7 +14,7 @@ export default ({ data }) => (
       title="Home"
       description="Found this super cool mural in Coconut Grove the other day."
     />
-    <StyledHero home="true" img={data.defaultBcg.childImageSharp.fluid}>
+    <StyledHero home="true" img={data.NightClubHero.childImageSharp.fluid}>
       <Banner
         title="continue onward"
         info="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, nisi!"
@@ -31,7 +31,7 @@ export default ({ data }) => (
 
 export const query = graphql`
   query {
-    defaultBcg: file(relativePath: { eq: "defaultBcg.jpeg" }) {
+    NightClubHero: file(relativePath: { eq: "NightClubHero.jpeg" }) {
       childImageSharp {
         fluid(quality: 90, maxWidth: 4160) {
           ...GatsbyImageSharpFluid_withWebp
